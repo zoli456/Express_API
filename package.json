@@ -1,0 +1,28 @@
+{
+  "name": "express-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node --env-file=.env app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "4.4.0",
+    "express": "5.0.1",
+    "express-requests-logger": "^4.0.2",
+    "express-validator": "^7.2.1",
+    "http-errors": "2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mariadb": "^3.4.0",
+    "morgan": "1.10.0",
+    "node-cron": "^3.0.3",
+    "pug": "3.0.3",
+    "sequelize": "^6.37.6"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.9",
+    "prettier": "3.5.3"
+  }
+}
